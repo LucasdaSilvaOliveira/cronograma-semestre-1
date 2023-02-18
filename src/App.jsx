@@ -7,7 +7,7 @@ import Matters from "./components/Matters"
 function App() {
 
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename={"cronograma-semestre-1"}>
       <Header />
       <Matters />
       <Calendar />

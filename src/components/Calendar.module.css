@@ -50,3 +50,12 @@ caption {
 .cinza {
     background-color: #464d39;
 }
+
+@media (max-width: 595px) {
+    .calendar_container {
+        width: 90%;
+    }
+    th, td {
+        padding: 5px 0px;
+    }
+}

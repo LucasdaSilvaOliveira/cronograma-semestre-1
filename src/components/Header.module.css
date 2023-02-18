@@ -1,0 +1,18 @@
+.header_container {
+    background-color: #a19595;
+    padding: 20px 0px;
+}
+
+.header_container h1 {
+    font-size: 40px;
+    font-style: italic;
+    margin: 0px;
+    text-align: center;
+    color: #2d2c31;
+}
+
+.header_container h1 span {
+    color: #3434b8;
+    display: inline-block;
+    text-decoration: underline;
+}

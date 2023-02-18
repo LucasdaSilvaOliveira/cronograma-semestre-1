@@ -1,0 +1,43 @@
+.matters_container {
+    width: fit-content;
+    margin:  50px auto;
+}
+
+.azul {
+    background-color: #1d70dd;
+}
+.vermelho {
+    background-color: #b83e3e;
+}
+.amarelo {
+    background-color: #b8b830;
+}
+.verde {
+    background-color: #40b340;
+}
+.roxo {
+    background-color: #7d34c2;
+}
+.rosa {
+    background-color: #ff00b3;
+}
+.cinza {
+    background-color: #464d39;
+}
+
+
+.matters_container h2 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.matters_container h2 span:first-child {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.temas {
+    font: 18px normal;
+}

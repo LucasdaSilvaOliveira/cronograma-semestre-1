@@ -1,6 +1,3 @@
-import Buttons from '../buttons/Buttons';
-
-import styles from './Calendar.module.css';
 import Fevereiro from '../content/Fevereiro';
 import Março from '../content/Março';
 import Abril from '../content/Abril';
@@ -13,10 +10,10 @@ export default function Calendar() {
         <>
             <Routes>
                 <Route exact path='/' element={<Fevereiro />}/>
-                <Route exact path='/março' element={<Março />}/>
-                <Route exact path='/abril' element={<Abril />}/>
-                <Route exact path='/maio' element={<Maio />}/>
-                <Route exact path='/junho' element={<Junho />}/>
+                <Route path='/março' element={<Março />}/>
+                <Route path='/abril' element={<Abril />}/>
+                <Route path='/maio' element={<Maio />}/>
+                <Route path='/junho' element={<Junho />}/>
             </Routes>
         </>
     )
